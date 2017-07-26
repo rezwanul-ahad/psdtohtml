@@ -1,0 +1,898 @@
+body{
+
+margin: 0;
+padding: 0;
+position: relative; 
+max-width:100%;
+
+
+} 
+
+/*header section*/
+ .header_section{
+position: relative;
+ 	width:100%;
+	height:120vh;
+	background-image:url("background.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    box-sizing: border-box;
+ }
+
+ .header{
+
+ 	color: white;
+ 	
+ 	width: 100%;
+ 	
+ 	position: absolute;
+ }
+
+ .header_left{
+ 	top: 0 ;
+ 	float: left;
+
+
+ }
+ .header_left ul li{
+ 	padding: 5px;
+
+ 	display: inline-block;
+ 	position: relative;
+
+ }
+ .header_middle{
+ 	 font-family: 'Montserrat', sans-serif;
+ 	top: 1%;
+ 	left: 75%;
+ 	transform: translate(-50%,-50%);
+ 	position: relative;
+ 	
+ }
+ .header_right{
+ 	float: right;
+ 	
+ 	
+}
+
+.header_right button{
+
+	   position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 12px;
+    background-color: #d8d6d6;
+border-radius: 6px;
+border: none;
+    color: black;
+    padding: 10px 24px;
+    text-align: left;
+    text-decoration: none;
+    
+    
+    margin: 2px 1px;
+}
+
+.header_section_center{
+
+	top:50%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+    
+}
+
+.header_section_center h1{
+
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+    color: white;
+}
+.header_section_center button{
+
+background-color: #54d154;
+border-radius: 12px;
+border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 18px;
+    margin: 4px 2px;
+    
+top:50%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+
+position: relative;
+
+}
+.header_section_footer button{
+
+background-color: #f2e7dc;
+border-radius: 8px;
+border: none;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 12px;
+    margin: 4px 2px;
+    
+top:90%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+
+position: absolute;
+
+}
+/*end of header section*/
+
+/*service section*/
+
+.service_section{
+
+	background-color: #ffffff;
+	width: 100%;
+	height: 90vh;
+	position: relative;
+
+}
+
+.service_header h1{
+	color: #755e5e;
+	top:10%;
+	left: 95%;
+    transform: translate(-50%,-50%);
+
+position: relative;
+}
+.service_header p{
+	color: #acabab;
+	top:1%;
+	left: 85%;
+    transform: translate(-50%,-50%);
+
+position: relative;
+}
+.services{
+	
+	padding: 2px;
+	top: 15%;
+	position: relative;
+}
+.service{
+	
+	
+	background: white;
+	width: 28%;
+	display: inline-block;
+	margin: 0 2% ;
+	text-align: center;
+	padding: 4 px;
+}
+.service p{
+	color: #acabab;
+
+	text-align: justify;
+}
+.service h1{
+	color: #755e5e;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.service button{
+background-color: #54d154;
+border-radius: 8px;
+border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 12px;
+    margin: 4px 2px;
+
+}
+
+/*end of service section*/
+ /*work section*/
+.work_section{
+
+	background-color: #54d154;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+
+}
+
+.work_header{
+
+	
+	position: relative;
+	top:2%;
+}
+
+.work_header h1{
+	color: #755e5e;
+	top:10%;
+	left: 95%;
+    transform: translate(-50%,-50%);
+
+position: relative;
+}
+.work_header p{
+	color: #52645c;
+	top:1%;
+	left: 88%;
+    transform: translate(-50%,-50%);
+
+position: relative;
+}
+
+
+.work_middle{
+top:8%;
+	left: 95%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    
+    
+
+}
+
+
+
+.work_middle button{
+	background-color: #ffffff;
+    border: 1px solid green;
+    color: #4CAF50;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+     float: left;  
+}
+
+
+
+.work_portfolio{
+top:15% ;
+position: relative;
+
+}
+.portfolio{
+
+ width: 16% ;
+position: relative;
+display: inline-block;
+
+}
+
+.portfolio_row2{
+
+left: 10%;
+position: relative;
+
+
+}
+
+
+.portfolio_row1{
+
+left: -6.70%;
+position: relative;
+
+
+}
+.work_footer{
+	top:85%;
+	left:50%;
+	 transform: translate(-50%,-50%);
+	 position: absolute;
+
+}
+
+
+
+.work_footer button
+{
+background-color: #2b9b2b;
+border-radius: 8px;
+border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 12px;
+    margin: 4px 2px;
+
+	
+}
+
+/*end of work section*/
+/*testimonials section*/
+.testimonials_section{
+
+	background-color: #ffffff;
+	width: 100%;
+	height: 50vh;
+	position:relative;
+
+}
+
+.testimonials_text h1{
+	color: #755e5e;
+	top:10%;
+	left: 95%;
+    transform: translate(-50%,-50%);
+
+position: relative;
+}
+.testimonials_text p{
+	color: #acabab;
+	top:1%;
+	left: 85%;
+    transform: translate(-50%,-50%);
+
+position: relative;
+
+}
+.testimonials_spech{
+color: #755e5e;
+	top:20%;
+	left:50%;
+    transform: translate(-50%,-50%);
+width: 40%;
+position: relative;
+}
+..testimonials_spech p{
+
+	text-align: justify;
+}
+
+.testimonials_pic{
+
+	top:30%;
+	left:95%;
+    transform: translate(-50%,-50%);
+
+position: relative;
+
+
+}
+.logo_right {
+
+	top:0%;
+	left:48.5%;
+	width:90%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	margin-top: 21px;
+	
+	box-sizing: border-box;
+	
+}
+
+
+.logo_right h6{
+margin:0;
+	padding: 0;
+	font-weight: bold;
+
+}
+
+/*end of testimonials section*/
+
+/*client*/
+
+.client_section{
+	background-color: #f2f1f1;
+	width: 100%;
+	height: 60vh;
+	position: relative;
+	
+
+}
+.client_text h2{
+text-align: center;
+}
+.client_text p{
+	color: #acabab;
+	top:1%;
+	left: 88%;
+    transform: translate(-50%,-50%);
+
+position: relative;
+
+}
+
+.client_icon{
+top:15% ;
+position: relative;
+
+}
+.icon{
+
+ width: 20% ;
+position: relative;
+display: inline-block;
+padding: 10px;
+}
+
+.icon_row2{
+
+left: 10%;
+position: relative;
+
+
+}
+
+
+.icon_row1{
+
+left: 10%;
+position: relative;
+
+
+}
+
+.client_footer{
+	top:95%;
+	left:50%;
+	 transform: translate(-50%,-50%);
+	 position: absolute;
+
+}
+
+
+
+.client_footer button
+{
+background-color: #dddcdc;
+border-radius: 8px;
+border: none;
+    color: #a59d9d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 12px;
+    margin: 4px 2px;
+
+	
+}
+
+/*end of client*/
+
+/*team*/
+
+.team_section{
+
+	background-color: #54d154;
+	width: 100%;
+	height: 90vh;
+	
+position: relative;
+
+}
+
+
+.team_text h1{
+	text-align: center;
+}
+.team_text p{
+	color: #52645c;
+	top:1%;
+	left: 88%;
+    transform: translate(-50%,-50%);
+
+position: relative;
+}
+
+.team{
+    width: 100%;
+	left: 12%;
+position: relative;
+
+	top:15%;
+}
+
+.team_pic{
+
+ width: 16% ;
+position: relative;
+display: inline-block;
+
+}
+.vertline {
+  left:27%;
+top:92%;
+position:absolute;
+}
+.person_name h4{
+	top:150%;
+	color: white;
+	position: absolute;
+}
+.person_name h3{
+	top:150%;
+	font-size: 18px;
+	color: white;
+	position: absolute;
+}
+.person_name h2{
+	top:150%;
+	font-size: 18px;
+	left: 19%;
+	color: white;
+	position: absolute;
+}
+.pic_button button{
+
+
+	background-color: white;
+    border: none;
+    padding: 5px 11px;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    border-radius: 12px;
+}
+
+.pic_button{
+	top:190%;
+	color: white;
+	position: absolute;
+
+}
+.vertline1 {
+  left:28%;
+top:92%;
+position:absolute;
+}
+.vertline2 {
+  left:29%;
+top:92%;
+position:absolute;
+}
+.vertline3 {
+  left:30%;
+top:92%;
+position:absolute;
+}
+.vertline4 {
+  left:31%;
+top:92%;
+position:absolute;
+}
+.team_footer button{
+    
+	background-color: #3eba3e;
+    border: none;
+    padding: 40px 75px;
+    text-decoration: none;
+     margin: 4px 2px;
+    width: 550%;
+}
+.team_footer{
+	top:83%;
+	position: absolute;
+}
+
+
+
+
+/*end team*/
+
+/*recent*/
+
+
+
+
+.upper-section{
+
+	background-color: #333333;
+	width: 100%;
+	height: 80vh;
+	
+position: relative;
+}
+.about-us{
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 31px;
+    top: -6%;
+    position: relative;
+}
+
+.about-us .heading{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #bababa;
+}
+
+.about-us .underline{
+    border-bottom: 1.5px solid #bababa;
+}
+
+.about-us .para{
+    margin-top: 30px;
+}
+
+.about-us .para p{
+    text-align: center;
+    font-family: ProximaNova;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #bababa;
+}
+
+.about-us .small-icons{
+    background: #c5e9c5;
+    display: inline;
+    padding: 10px 10px 1px 10px;
+    border-radius: 35px;
+    margin-left: 32%;
+}
+
+/*  --END OF ABOUT US SECTION STYLE--   */
+
+
+
+/*  --RECENT POSTS SECTION STYLE--   */
+.recent-posts{
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 18px;
+}
+
+.recent-posts .heading{
+    margin-top: -1px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #bababa;
+}
+
+.recent-posts .underline{
+    border-bottom: 1.5px solid #bababa;
+}
+
+.recent-posts p{
+    margin: 0;
+    padding: 0;
+    font-family: ProximaNova;
+}
+
+.post-left{
+   box-sizing: border-box;
+   width: 18%;
+   display: inline-block;
+    margin-top: 10px;
+}
+
+.post1 .post-right{
+   box-sizing: border-box;
+   width: 78%;
+   color: #bababa;
+   display: inline-block;
+   padding: 5px;
+}
+
+.post1 button{
+    background: #54d154;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: background .5s;
+}
+
+.post1 button:hover{
+    background: #41a841;
+}
+
+.post2 .post-right{
+   box-sizing: border-box;
+   width: 78%;
+   color: #bababa;
+   display: inline-block;
+   padding: 5px;
+}
+
+.post2 button{
+    background: #ffba00;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: background .3s;
+}
+
+.post2 button:hover{
+    background: #e2761a;
+}
+
+.post3 .post-right{
+   box-sizing: border-box;
+   width: 78%;
+   color: #bababa;
+   display: inline-block;
+   padding: 5px;
+}
+
+.post3 button{
+    background: #089dea;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px; 
+    transition: background .3s;
+}
+
+.post3 button:hover{
+    background: #0482c3;
+}
+
+.post4 .post-right{
+   box-sizing: border-box;
+   width: 78%;
+   color: #bababa;
+   display: inline-block;
+}
+
+.post4 button{
+    background: #f34d04;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px; 
+    transition: background .3s;
+}
+
+.post4 button:hover{
+    background: #cc3e00;
+}
+
+.post5 .post-right{
+   box-sizing: border-box;
+   width: 78%;
+   color: #bababa;
+   display: inline-block;
+}
+
+.post5 button{
+    background: #ffba00;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: background .3s;
+}
+
+.post5 button:hover{
+   background: #e2761a;
+}
+
+/*  --END OF RECENT POSTS SECTION STYLE--   */
+
+
+/*  --CONTACT US SECTION STYLE--   */
+
+.contact-us{
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    top:-8%;
+    position: relative;
+}
+
+.contact-us .heading{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #bababa;
+}
+
+
+.contact-us .underline{
+    border-bottom: 1.5px solid #bababa;
+}
+
+.contact-us .address p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: grey;
+}
+
+.contact-us .form{
+   
+    top:8%;
+    right: -30%;
+    position: relative;
+}
+
+input[type="name"]{
+    border-radius: 2px 2px 0 0 ;
+    display: block;
+    padding: 5px 0 5px 7.5px;
+    width: 83.5%;
+    border: none;
+    background: #444444;
+}
+
+textarea{
+    display: block;
+    padding: 7.5px;
+    border: none;
+    margin-top: 2px;
+    background: #444444;
+    color: grey;
+ }
+
+.send-mail{
+    display: block;
+    padding: 5px 0 5px 6.5px;
+    width: 84%;
+    border: none;
+    margin-top: 2px;
+    background: #444444;
+    
+}
+
+.send-button{
+    width: 86%;
+    border-radius: 0 0 2px 2px;
+    border: none;
+    font-family: ProximaNova;
+    background: #2b9b2b;
+    color: #fff;
+    height: 5vh;
+    margin-top: 2px;
+    transition: background .3s;
+}
+
+.send-button:hover{
+   background: #288328; 
+}
+
+/*  --END OF CONTACT US SECTION STYLE--  */
+
+
+
+.footer_section{
+	background-color: #222222;
+	width: 100%;
+	height: 20vh;
+	
+position: relative;
+
+}
+.icon_footer{
+width: 20%;
+	display: inline-block;
+	top:45%;
+	position: relative;
+	left:5%;
+
+}
+
+
